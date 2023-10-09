@@ -1,0 +1,23 @@
+
+@media(max-width:991px){
+    .login-form-container .close-login-form{
+        right: 40rem;
+        top: 13rem;
+    }
+}
+
+@media(max-width:768px){
+    .login-form-container .close-login-form{
+        right: 26rem;
+        top: 12rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width:450px){
+    .login-form-container .close-login-form{
+        right: 10rem;
+        top: 15rem;
+        font-size: 1.8rem;
+    }
+}

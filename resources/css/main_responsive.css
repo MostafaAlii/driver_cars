@@ -1,0 +1,57 @@
+
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .header.active,
+    section{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:768px){
+    .header .menu-btn{
+        display: block;
+    }
+    .header .menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+    .header .login-btn i{
+        display: block;
+    }
+    .header .login-btn i:hover{
+        color: var(--dark-blue);
+    }
+    .header .login-btn .btn{
+        display: none;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar a{
+        display: block;
+        margin: 1rem;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .header{
+        padding: 2rem;
+    }
+}

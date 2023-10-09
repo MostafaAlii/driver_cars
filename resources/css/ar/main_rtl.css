@@ -1,0 +1,13 @@
+.navbar {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .login-form-container .close-login-form{
+    left: 54rem;
+}

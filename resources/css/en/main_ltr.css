@@ -1,0 +1,11 @@
+.header .navbar a{
+    margin:0 1rem;
+}
+
+.login-form-container .close-login-form{
+    right: 54rem;
+}
+
+.home img{
+    margin: 1rem 0;
+}

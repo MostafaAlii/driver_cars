@@ -72,3 +72,29 @@ var swiper = new Swiper(".vehicles-slider", {
       },
     },
   });
+
+// Captains Swipper Slider
+var swiper = new Swiper(".captains-slider", {
+    slidesPerView: 1,
+    spaceBetween: 2,
+    loop:true,
+    autoplay:{
+        delay: 2500,
+        disableOnInteractiion: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+    },
+  });
